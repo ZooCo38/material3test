@@ -1,0 +1,36 @@
+name: material_builder
+description: Un éditeur de thèmes Material 3 pour Flutter.
+
+# Version du package
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_colorpicker: ^1.0.3  #pour le color picker
+  provider: ^6.0.5         # Pour la gestion d'état
+  flex_color_picker: ^3.2.0 # Pour sélectionner les couleurs
+  path_provider: ^2.1.0     # Pour gérer les chemins de fichiers
+  file_picker: ^5.3.1       # Pour charger/sauvegarder des fichiers
+  uuid: ^3.0.7              # Pour générer des identifiants uniques
+  json_serializable: ^6.7.0  # Pour sérialiser/désérialiser JSON
+  xml: ^6.3.0               # Pour générer des fichiers XML
+  cupertino_icons: ^1.0.5   # Icons iOS standards
+  url_launcher: ^6.1.12     # Pour ouvrir des URL
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  build_runner: ^2.4.6
+
+# Configuration Flutter
+flutter:
+  uses-material-design: true
+  
+  # Vous pouvez ajouter des assets ici si besoin
+  # assets:
+  #   - assets/images/
